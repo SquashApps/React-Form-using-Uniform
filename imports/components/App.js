@@ -1,7 +1,7 @@
 import React from 'react';
 import { schema } from '/imports/api/schema';
 import AutoForm from 'uniforms/AutoForm';
-import Range from './Range';
+import Range from './DateRange';
 import TimeRange from './TimeRange';
 import SubmitField from 'uniforms-antd/SubmitField';
 import ErrorsField from 'uniforms-antd/ErrorsField';
