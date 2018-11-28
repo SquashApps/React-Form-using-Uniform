@@ -20,7 +20,6 @@ const disableHours = (value) => {
 }
 
 const TimeRange = ({ onChange, value }) => {
-    console.log('inside time range component',value['start'])
     return (<section className="time_range">
         <label>Time</label>
         <TimePicker onChange={start => startAndEndTime(start, value, onChange)} />
