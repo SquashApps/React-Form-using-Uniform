@@ -1,0 +1,41 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.range{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.time_range{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.uniform_test{
+  text-align: center;
+}
+.container{
+  border: 1px solid #ccc1c1;
+  border-radius: 12px;
+  padding:24px;
+}
+.time_range span.ant-time-picker{
+  margin-left:20px;
+}
+.submitField{
+  margin-top:24px;
+  display: flex;
+  justify-content: center;
+}
+#app{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.dateLabel{
+  margin-right:12px;
+}
