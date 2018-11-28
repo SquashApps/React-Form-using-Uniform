@@ -1,6 +1,5 @@
 import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
-
 export const schema = new SimpleSchema({
     dateRange: { type: Object },
     "dateRange.start": { type: Date },

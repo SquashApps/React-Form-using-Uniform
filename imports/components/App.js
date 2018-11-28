@@ -5,7 +5,6 @@ import Range from './DateRange';
 import TimeRange from './TimeRange';
 import SubmitField from 'uniforms-antd/SubmitField';
 import ErrorsField from 'uniforms-antd/ErrorsField';
-
 export default class App extends React.Component {
     onChange(...args) {
         console.log('model onChange', ...args)
